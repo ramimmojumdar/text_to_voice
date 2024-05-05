@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:id = "@+id/main"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context = ".MainActivity" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        app:title="@string/app_name"
+        android:background="#213EE3"
+        app:titleTextColor="#fff"
+        android:layout_marginBottom="25dp"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width = "match_parent"
+        android:layout_height = "100dp"
+        android:background="#fff"
+        android:textSize="18sp"
+        android:layout_margin="7dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text="Skeak"
+        android:textSize="20sp"
+        android:layout_marginTop="40sp"
+        android:background="#213EE3"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:textColor="#fff"
+        />
+
+
+</LinearLayout >
