@@ -24,6 +24,7 @@
         android:layout_height = "100dp"
         android:background="#fff"
         android:textSize="18sp"
+        android:textColor="@color/black"
         android:layout_margin="7dp"
         />
 

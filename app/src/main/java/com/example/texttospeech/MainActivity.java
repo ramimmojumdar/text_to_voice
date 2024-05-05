@@ -36,12 +36,13 @@ public class MainActivity extends AppCompatActivity {
 
         button = findViewById(R.id.button);
         editText = findViewById(R.id.editText);
-        String myString = editText.getText().toString();
+
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textToSpeech.speak(myString,TextToSpeech.QUEUE_FLUSH, null, null);
+                String myString = editText.getText().toString();
+                textToSpeech.speak(""+ myString,TextToSpeech.QUEUE_FLUSH, null, null);
             }
         });
 
